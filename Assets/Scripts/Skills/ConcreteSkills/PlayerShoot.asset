@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8319f6b260f6040b624781485f1c73, type: 3}
+  m_Name: PlayerShoot
+  m_EditorClassIdentifier: 
+  _cooldownSec: 0.1
+  _name: LaserPlayer
+  _soundOnUsage: {fileID: 8300000, guid: 358052e4533f50a458b71d8f9709956b, type: 3}
+  _soundOnUsageVolume: 0.1
+  _spawnObject: {fileID: 1429607849437428792, guid: 39e3abdc4970d384cb90dc5ee4abca1e, type: 3}
+  _offSetPositions:
+  - {x: -0.3, y: 0.3}
+  - {x: 0.3, y: 0.3}

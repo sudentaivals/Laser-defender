@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8319f6b260f6040b624781485f1c73, type: 3}
+  m_Name: BigEnemyShoot
+  m_EditorClassIdentifier: 
+  _cooldownSec: 1
+  _name: BigShoot
+  _soundOnUsage: {fileID: 8300000, guid: ee839fa0632aa41449658cd01ec2b665, type: 3}
+  _soundOnUsageVolume: 0.3
+  _spawnObject: {fileID: 1429607849437428792, guid: 91c64154d5e545a43b36db92e2df25a0, type: 3}
+  _offSetPositions:
+  - {x: 0.25, y: -0.25}
+  - {x: -0.25, y: -0.25}

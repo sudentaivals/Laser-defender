@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8319f6b260f6040b624781485f1c73, type: 3}
+  m_Name: MonsterShipShoot
+  m_EditorClassIdentifier: 
+  _cooldownSec: 1.15
+  _name: MonsterShoot
+  _soundOnUsage: {fileID: 8300000, guid: 0e2608dc639881d4f9d5799ea5abaa87, type: 3}
+  _soundOnUsageVolume: 0.3
+  _spawnObject: {fileID: 1429607849437428792, guid: dd952308f43e6c34f91e181e401cc9b7, type: 3}
+  _offSetPositions:
+  - {x: 0, y: -0.35}
+  - {x: -0.5, y: -0.35}
+  - {x: 0.5, y: -0.35}

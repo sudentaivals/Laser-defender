@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7468926453255782871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7468926453255782869}
+  - component: {fileID: 7468926453255782868}
+  m_Layer: 0
+  m_Name: RandomEnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7468926453255782869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7468926453255782871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7468926453255782868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7468926453255782871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08809d9baec3cd942a09c422bb9164b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsToSpawn:
+  - {fileID: 6827509642488128056, guid: 7f4e267084e5998419b340a40f133387, type: 3}
+  - {fileID: 6827509642488128056, guid: 42ee781236355144bbd02ae653bb0e3b, type: 3}
+  - {fileID: 2051799689584670567, guid: 44140b8b2b4b06f43bb0bde45a9a614a, type: 3}
+  _enemyPaths:
+  - {fileID: 3629126343858444503, guid: ee956bc90e16e464ca4637b404d1080c, type: 3}
+  - {fileID: 8026026028859928458, guid: 88dc1d49faf968446b6e334a6b96fe9d, type: 3}
+  - {fileID: 8026026028859928458, guid: 0dbcec52c22d14c4aaadb7032e9ffa77, type: 3}
+  - {fileID: 8026026028859928458, guid: 8b68e52360285504a8505b2f20556223, type: 3}
+  - {fileID: 8026026028859928458, guid: a6538e8a24b12cf48bea05ad4a5c8852, type: 3}
+  _minSpawns: 4
+  _maxSpawns: 10
+  _minSpeed: 2.5
+  _maxSpeed: 5
+  _minSpawnInterval: 0.35
+  _maxSpawnInterval: 1

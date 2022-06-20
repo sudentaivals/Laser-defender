@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1b352cf3b5b473d46a67114dc1ad95b1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _playerProjectile: {instanceID: 0}
+  - _soundOnProjectileSpawn: {fileID: 8300000, guid: 358052e4533f50a458b71d8f9709956b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
